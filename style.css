@@ -1,0 +1,149 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 10vw;
+  margin-right: 10vw; */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1f2937;
+}
+
+.header {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.hero-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.hero-left {
+  width: 40vw;
+}
+
+.sign-up-1 {
+  background-color: #3882f6;
+  color: white;
+  border-style: none;
+  border-radius: 10%;
+  padding: 5px 10px;
+}
+
+img {
+  height: auto;
+  width: 200px;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 50px 0;
+}
+
+.thumbnail-container-horiz {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.thumbnail-container-vert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnail-text {
+  text-align: center;
+  max-width: 150px;
+}
+
+.thumbnail {
+  border: solid 5px #3882f6;
+  height: 150px;
+  width: 150px;
+  border-radius: 5%;
+  margin: 0 80px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 80px 300px;
+}
+
+.quote-container p {
+  margin-top: 0;
+  font-size: 36px;
+  font-style: italic;
+}
+
+cite {
+  text-align: right;
+  font-weight: bold;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.signup-container-outer {
+  background-color: white;
+  padding: 100px 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-container-inner {
+  background-color: #3882f6;
+  padding: 40px 30px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.sign-up-2 {
+  align-self: center;
+  border: solid 2px white;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 15px;
+}
+
+.signup-large {
+  margin: 0;
+  color: white;
+}
+
+.signup-small {
+  color: white;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
